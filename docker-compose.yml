@@ -1,0 +1,9 @@
+version: '3'
+services:
+  pysparkling:
+    image: discovervlad/pysparkling:0.0.1
+    ports:
+     - "54321:54321"
+     - "8888:8888"
+     - "8787:8787"
+     - "4040:4040"
